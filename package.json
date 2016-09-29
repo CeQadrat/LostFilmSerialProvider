@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/CeQadrat/LostFilmSerialProvider/issues"
   },
-  "homepage": "https://github.com/CeQadrat/LostFilmSerialProvider#readme"
+  "homepage": "https://github.com/CeQadrat/LostFilmSerialProvider#readme",
+  "dependencies": {
+    "request": "^2.75.0"
+  }
 }
