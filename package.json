@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/CeQadrat/LostFilmSerialProvider#readme",
   "dependencies": {
-    "request": "^2.75.0"
+    "htmlparser2": "^3.9.1",
+    "iconv-lite": "^0.4.13",
+    "request": "^2.75.0",
+    "utf8": "^2.1.1"
   }
 }

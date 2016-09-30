@@ -1,0 +1,8 @@
+module.exports = class LostFilmSP{
+    constructor(serialName){
+        this.serialName = serialName;
+    }
+    getSeries(){
+
+    }
+};
