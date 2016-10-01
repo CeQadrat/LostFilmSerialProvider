@@ -14,7 +14,6 @@ module.exports = {
             onopentag: (name, attribs) => {
                 if(name == 'div' && attribs.class == 'bb' && enableParseAllSerial){
                     enableParse = true;
-                    console.log(1);
                 }
                 if(name == 'div' && attribs.class == 'mid'){
                     enableParseAllSerial = true;
@@ -46,4 +45,4 @@ module.exports = {
         parser.end();
         return allSerials;
     }
-}
+};
